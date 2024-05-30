@@ -89,3 +89,7 @@
   height: auto;
   object-fit: cover;
 }
+
+.cardFrontName {
+  margin-top: 25px;
+}
