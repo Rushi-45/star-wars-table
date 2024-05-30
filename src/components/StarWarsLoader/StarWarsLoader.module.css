@@ -1,0 +1,24 @@
+.star-wars-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+
+.star-wars-loader__spinner {
+  width: 30px; /* Adjust the size of the spinner */
+  height: 30px; /* Adjust the size of the spinner */
+  border: 3px solid #fff;
+  border-radius: 50%;
+  border-top: 3px solid transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

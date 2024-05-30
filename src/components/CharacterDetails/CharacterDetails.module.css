@@ -1,0 +1,92 @@
+/* CharacterDetails.module.css */
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.paper {
+  padding: 24px;
+  background-color: #1e1e1e;
+  color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.characterDetails {
+  display: grid;
+  gap: 20px;
+}
+
+.loaderContainer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.characterDetailItem {
+  display: flex;
+  gap: 8px;
+}
+
+.characterDetailItem > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.characterDetailItem strong {
+  min-width: 100px;
+  margin-right: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 420px;
+}
+
+.characterName {
+  margin-left: 173px;
+}
+
+.characterFrontDetailItem > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+
+.cardBack {
+  transform: rotateY(10deg);
+}
+.cardFront {
+  position: relative;
+}
+
+.cardFrontTitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  color: white;
+}
+
+.cardFrontImageWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 380px;
+}
+
+.cardFrontImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
